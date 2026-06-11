@@ -59,7 +59,7 @@ A high-performance HTML → Markdown converter powered by Rust. Available as a R
 - High throughput: optimized for batch workloads and multi-GB documents  
 - Memory efficient: streaming architecture keeps memory usage predictable  
 - Flexible deployment: use via CLI, REST API, MCP server and more
-- Elastic License 2.0 (ELv2) from v4.8.0: free to use, modify, and self-host; offering Kreuzberg as a managed service to third parties requires a commercial license. Versions v4.7.x and below are MIT.  
+- Elastic License 2.0 (ELv2) from v4.8.0: self-host freely, no managed-service resale. v4.7.x and below are MIT.  
 - Built for RAG: native chunking, embeddings, and customization  
 
 ## Community
