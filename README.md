@@ -13,7 +13,7 @@
 <img width="3384" height="573" alt="Linkedin- Banner" src="https://github.com/user-attachments/assets/cfd0d072-fffc-4d33-9ed4-709c0a740b9f" />
 
 <div align="center" style="margin-top: 20px;">
-  <a href="https://discord.gg/pXxagNK2zN">
+  <a href="https://discord.gg/xt9WY3GnKR">
       <img height="22" src="https://img.shields.io/badge/Discord-Join%20our%20community-7289da?logo=discord&logoColor=white" alt="Discord">
   </a>
 </div>
@@ -66,7 +66,7 @@ A high-performance HTML → Markdown converter powered by Rust. Available as a R
 
 Join our dev community to ask questions, share feedback, and show what you’re building.
 
-Discord: https://discord.gg/xzx4KkAPED  
+Discord: https://discord.gg/xt9WY3GnKR  
 Subreddit: https://www.reddit.com/r/kreuzberg_dev/  
 LinkedIn: https://www.linkedin.com/company/kreuzberg-dev/  
 X/Twitter: https://x.com/kreuzberg_dev  
