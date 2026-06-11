@@ -4,7 +4,7 @@
   <!-- Project Info -->
   <div align="center" style="margin-top: 20px;">
   <a href="https://github.com/kreuzberg-dev/kreuzberg/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+    <img src="https://img.shields.io/badge/License-Elastic--2.0-007ec6" alt="License">
   </a>
   <a href="https://docs.kreuzberg.dev">
     <img src="https://img.shields.io/badge/docs-kreuzberg.dev-blue" alt="Documentation">
@@ -59,7 +59,7 @@ A high-performance HTML → Markdown converter powered by Rust. Available as a R
 - High throughput: optimized for batch workloads and multi-GB documents  
 - Memory efficient: streaming architecture keeps memory usage predictable  
 - Flexible deployment: use via CLI, REST API, MCP server and more
-- MIT licensed: safe for enterprise, commercial, and closed-source use  
+- Elastic License 2.0 (ELv2) from v4.8.0: free to use, modify, and self-host; offering Kreuzberg as a managed service to third parties requires a commercial license. Versions v4.7.x and below are MIT.  
 - Built for RAG: native chunking, embeddings, and customization  
 
 ## Community
