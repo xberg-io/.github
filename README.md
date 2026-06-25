@@ -1,88 +1,43 @@
-# 🌉 Kreuzberg
-## Document Intelligence for AI Engineering Workflows: Open Source and Cloud
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xberg-io/assets@v1/banner/readme-banner-dark.svg">
+    <img alt="Xberg" width="460" src="https://cdn.jsdelivr.net/gh/xberg-io/assets@v1/banner/readme-banner-light.svg">
+  </picture>
+</p>
 
-  <!-- Project Info -->
-  <div align="center" style="margin-top: 20px;">
-  <a href="https://github.com/xberg-io/kreuzberg/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
-  </a>
-  <a href="https://docs.kreuzberg.dev">
-    <img src="https://img.shields.io/badge/docs-kreuzberg.dev-blue" alt="Documentation">
-  </a>
-</div>
-<img width="3384" height="573" alt="Linkedin- Banner" src="https://github.com/user-attachments/assets/cfd0d072-fffc-4d33-9ed4-709c0a740b9f" />
+<p align="center"><strong>Polyglot document intelligence with a Rust core — extract text, tables, and metadata from 97+ formats, with native bindings for every major language.</strong></p>
 
-<div align="center" style="margin-top: 20px;">
-  <a href="https://discord.gg/pXxagNK2zN">
-      <img height="22" src="https://img.shields.io/badge/Discord-Join%20our%20community-7289da?logo=discord&logoColor=white" alt="Discord">
-  </a>
-</div>
+<p align="center">
+  <a href="https://docs.xberg.io"><img src="https://img.shields.io/badge/Docs-xberg.io-007ec6" alt="Documentation"></a>
+  <a href="https://discord.gg/xzx4KkAPED"><img src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://github.com/xberg-io/xberg/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-007ec6" alt="License"></a>
+</p>
 
-Kreuzberg is a polyglot document intelligence framework built around a high-performance Rust core. It helps developers extract text, structure, metadata, and embeddings from 92+ document formats at native speed, without requiring GPUs.
+## Ecosystem
 
-Kreuzberg is an open-source library. We're currently building a hosted cloud service around it to make document processing reliable, scalable, and easy to integrate into modern pipelines.
+- [Xberg](https://github.com/xberg-io/xberg) — document intelligence: text, tables, metadata from 97+ formats with optional OCR.
+- [Xberg Enterprise](https://github.com/xberg-io/xberg-enterprise) — managed extraction API with SDKs, dashboards, and observability.
+- [crawlberg](https://github.com/xberg-io/crawlberg) — web crawling and scraping with HTML→Markdown and headless-Chrome fallback.
+- [html-to-markdown](https://github.com/xberg-io/html-to-markdown) — fast, lossless HTML→Markdown engine.
+- [liter-llm](https://github.com/xberg-io/liter-llm) — universal LLM API client with native bindings for 14 languages and 143 providers.
+- [tree-sitter-language-pack](https://github.com/xberg-io/tree-sitter-language-pack) — tree-sitter grammars and code-intelligence primitives.
+- [alef](https://github.com/xberg-io/alef) — the polyglot binding generator that produces every per-language binding across the ecosystem.
 
-## What is Kreuzberg
+## Why Xberg
 
-### 1. Kreuzberg (Open Source)
-
-A high-performance, extensible document intelligence engine.
-
-- Rust core with streaming parsers and full parallelism  
-- Native bindings for Rust, Python, Ruby, Java, Go, PHP, Elixir, C#, R, C, WASM, TypeScript(Node/Bun/Wasm/Deno)   
-- 97+ supported formats including PDF, Office, images, HTML, XML, email, archives, and scientific formats  
-- OCR with table extraction (Tesseract, EasyOCR, PaddleOCR, extensible via plugins)  
-- Built-in semantic chunking and optional embeddings for RAG pipelines  
-- CLI, REST API, Docker images, and MCP server  
-
-Read more: https://kreuzberg.dev/
-
-### 2. Kreuzberg Cloud (Coming Soon)
-
-A fully managed document intelligence API powered by the same engine.
-
-Planned features include:
-- Hosted REST API  
-- Async jobs and webhooks  
-- Built-in chunking for RAG pipelines  
-- Premium OCR backends  
-- Usage dashboards and analytics  
-- Simple pay-as-you-go pricing  
-
-### 3. html-to-markdown
-
-A high-performance HTML → Markdown converter powered by Rust. Available as a Rust crate, Python package, PHP extension, Ruby gem, Elixir Rustler NIF, Node.js bindings, WebAssembly, and a standalone CLI- with identical rendering behavior across platforms.
-
-## Why Choose Kreuzberg
-
-- Truly polyglot: same engine across languages
-- High throughput: optimized for batch workloads and multi-GB documents  
-- Memory efficient: streaming architecture keeps memory usage predictable  
-- Flexible deployment: use via CLI, REST API, MCP server and more
-- MIT licensed: safe for enterprise, commercial, and closed-source use  
-- Built for RAG: native chunking, embeddings, and customization  
+- **Truly polyglot** — one Rust engine, identical results across every language binding.
+- **High throughput** — optimized for batch workloads and multi-GB documents.
+- **Memory efficient** — streaming architecture keeps memory usage predictable.
+- **Flexible deployment** — CLI, REST API, Docker, and MCP server.
+- **MIT licensed** — safe for enterprise, commercial, and closed-source use.
+- **Built for RAG** — native chunking, embeddings, and extensibility.
 
 ## Community
 
-Join our dev community to ask questions, share feedback, and show what you’re building.
+- Discord: https://discord.gg/xzx4KkAPED
+- Reddit: https://www.reddit.com/r/kreuzberg_dev/
+- LinkedIn: https://www.linkedin.com/company/kreuzberg-dev/
+- X/Twitter: https://x.com/kreuzberg_dev
+- Contact: contact@xberg.io
 
-Discord: https://discord.gg/xzx4KkAPED  
-Subreddit: https://www.reddit.com/r/kreuzberg_dev/  
-LinkedIn: https://www.linkedin.com/company/kreuzberg-dev/  
-X/Twitter: https://x.com/kreuzberg_dev  
-
-## Contributing
-
-Contributions are welcome.
-
-1. Open an issue to propose a change  
-2. Submit a pull request  
-3. Maintainers review and merge  
-
-See CONTRIBUTING.md in the relevant repository for details.  
-Kreuzberg repository: https://github.com/xberg-io/kreuzberg
-
-## Maintainers
-
-Built with love in Kreuzberg, Berlin.
-
+Built with care in Kreuzberg, Berlin.
