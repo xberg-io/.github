@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://docs.xberg.io"><img src="https://img.shields.io/badge/Docs-xberg.io-007ec6" alt="Documentation"></a>
-  <a href="https://discord.gg/xzx4KkAPED"><img src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://discord.gg/xt9WY3GnKR"><img src="https://img.shields.io/badge/Discord-Join-7289da?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/xberg-io/xberg/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-007ec6" alt="License"></a>
 </p>
 
@@ -34,7 +34,7 @@
 
 ## Community
 
-- Discord: https://discord.gg/xzx4KkAPED
+- Discord: https://discord.gg/xt9WY3GnKR
 - Reddit: https://www.reddit.com/r/kreuzberg_dev/
 - LinkedIn: https://www.linkedin.com/company/kreuzberg-dev/
 - X/Twitter: https://x.com/kreuzberg_dev
