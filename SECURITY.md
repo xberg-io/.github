@@ -13,7 +13,7 @@ and select **Report a vulnerability**. This opens a private channel with the mai
 If you cannot use GitHub, email both maintainers directly:
 
 - **Na'aman Hirschfeld** — <naaman@xberg.io>
-- **Tobias Perlstein** — <tobias@xberg.io>
+- **Tobias Perelstein** — <tobias@xberg.io>
 
 Include:
 
