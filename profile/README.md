@@ -26,10 +26,10 @@
 
 ## Why Xberg
 
-- **Polyglot** — xberg, crawlberg, html-to-markdown, liter-llm, and tree-sitter-language-pack each have one Rust core, and alef generates their bindings for every major language, so every binding behaves the same.
+- **Polyglot** — xberg, crawlberg, html-to-markdown, liter-llm, and tree-sitter-language-pack each have one Rust core, and alef generates their bindings for every major language, so each binding shares one API over the same core.
 - **Runs anywhere** — use xberg as a library, CLI, REST API, MCP server, or Docker image; it runs on CPU by default, with no GPU required.
 - **Built for RAG** — xberg ships chunking, local or provider-hosted embeddings, and reranking; tree-sitter-language-pack splits code into syntax-aware chunks.
-- **MIT licensed** — every repository above is MIT, safe for commercial and closed-source use.
+- **MIT licensed** — every repository above is MIT; bundled third-party components keep their own licenses (see each repo's ATTRIBUTIONS.md where present; xberg also ships THIRD_PARTY_LICENSES.md).
 
 ## Community
 
