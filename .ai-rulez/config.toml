@@ -1,0 +1,44 @@
+# Documentation: https://github.com/Goldziher/ai-rulez
+
+version = "5.0"
+name = 'dot-github'
+description = 'GitHub organization profile for xberg-io'
+gitignore = true
+presets = ["claude", "codex", "opencode"]
+builtins = [
+  "!agent-delegation",
+  "!ai-governance/agent-workflow",
+  "!git-workflow",
+  "!testing/test-alongside-code",
+  "!testing/tdd-workflow",
+  "!token-efficiency/output-awareness",
+  "!token-efficiency/task-runner",
+  "!ai-governance/explain-reasoning",
+  "!security/least-privilege",
+  "!security/input-validation",
+  "default-commands",
+]
+
+default_layers = ["plugins"]
+compact = true
+[[includes]]
+name = 'xberg-core'
+source = 'https://github.com/xberg-io/agent-conventions.git'
+version = "^1"
+path = 'modules/core'
+merge_strategy = 'local-override'
+
+[mcp]
+self_server_command = ["ai-rulez", "mcp"]
+# ~keep Skill discovery only: the full server lists 67 tools (~38k tokens of schema) at every session start.
+serve_skills = true
+read_only = true
+discover_skills = "repo"
+tools = ["find_skill", "load_skill"]
+
+[lock]
+include_outputs = false
+
+[rules]
+# ~keep Glob-scoped rules stay out of AGENTS.md: rule files for Claude, path-gated skills for Codex.
+scoped_fallback = "skill"

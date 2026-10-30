@@ -1,0 +1,26 @@
+# BEGIN ai-rulez (DO NOT EDIT - managed by ai-rulez)
+.agents/skills/
+.ai-rulez/.config.local.*
+.ai-rulez/.generated-manifest.json
+.ai-rulez/.generated-manifest.local.json
+.ai-rulez/config.local.*
+.ai-rulez/local/
+.claude/agents/
+.claude/settings.json
+.claude/skills/
+.codex/agents/
+.mcp.json
+.opencode/agents/
+.opencode/commands/
+AGENTS.md
+CLAUDE.md
+opencode.json
+# END ai-rulez
+
+# Agent harness output outside the ai-rulez managed block: presets this repository does not enable.
+.agents/settings.json
+.claude/plugins.json
+.codex/commands/
+.codex/plugins.json
+.cursor/
+.github/commands/
