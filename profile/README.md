@@ -34,7 +34,6 @@
 ## Community
 
 - Discord: <https://discord.gg/xt9WY3GnKR>
-- X: <https://x.com/xberg_io>
 - LinkedIn: <https://www.linkedin.com/company/xberg-io>
 - Contact: <contact@xberg.io>
 
